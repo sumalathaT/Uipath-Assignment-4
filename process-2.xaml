@@ -75,12 +75,8 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Add Queue Item" sap:VirtualizedContainerService.HintSize="488,22" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="Normal" QueueType="assignment3">
       <ui:AddQueueItem.ItemInformation>
-        <InArgument x:TypeArguments="x:String" x:Key="Date">
-          <Literal x:TypeArguments="x:String">Apr 15, 2021</Literal>
-        </InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="Balance Due">
-          <Literal x:TypeArguments="x:String">$1199.70</Literal>
-        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="Date">Apr 15, 2021</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="Balance Due">$1199.70</InArgument>
       </ui:AddQueueItem.ItemInformation>
     </ui:AddQueueItem>
     <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Add Queue Item" sap:VirtualizedContainerService.HintSize="488,22" sap2010:WorkflowViewState.IdRef="AddQueueItem_2" Priority="Normal" QueueType="assignment3">
@@ -162,7 +158,7 @@
                   </ui:TypeInto>
                   <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'editable text'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="Apr 15, 2021">
                     <ui:TypeInto.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4b65d8d0-3ba3-40d0-a36d-61eab674414f" InformativeScreenshot="0176bb313805e9e9e0b85447b0497488" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Rpa Challenge - Chromium' /&gt;&lt;ctrl name='Rpa Challenge' role='document' /&gt;&lt;ctrl idx='4' role='editable text' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4b65d8d0-3ba3-40d0-a36d-61eab674414f" InformativeScreenshot="6bcc2b6a0d3aec3adb73692536abc51b" Selector="&lt;webctrl tag='INPUT' class='ng-untouched ng-pristine ng-invalid' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
