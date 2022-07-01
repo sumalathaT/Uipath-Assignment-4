@@ -146,7 +146,7 @@
                   </Assign>
                   <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Chrome_RenderWidgetHost...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="$1199.70">
                     <ui:TypeInto.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4b65d8d0-3ba3-40d0-a36d-61eab674414f" InformativeScreenshot="fb35dacb622ac49248cbb65f9a0b8969" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Rpa Challenge - Chromium' /&gt;&lt;ctrl name='Rpa Challenge' role='document' /&gt;&lt;ctrl idx='12' role='editable text' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4b65d8d0-3ba3-40d0-a36d-61eab674414f" InformativeScreenshot="f5967c62061be6633713318eead99e52" Selector="&lt;webctrl id='YQX3v' tag='INPUT' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
